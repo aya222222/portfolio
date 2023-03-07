@@ -2806,6 +2806,15 @@ button:disabled,
   z-index: 2;
 }
 
+.fa-github {
+  cursor: pointer;
+  transition: color 0.25s ease, transform 0.5s ease;
+}
+
+.fa-github:hover {
+  color: #f2849e;
+}
+
 .content-preview {
   padding: 0 20px;
   display: flex;
