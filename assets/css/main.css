@@ -2510,7 +2510,7 @@ input[type="radio"] + label:before {
 
 @media screen and (max-width: 980px) {
   .intro-img {
-    margin: 100px auto;
+    margin: 70px auto;
   }
 }
 @media screen and (max-width: 736px) {
@@ -2520,6 +2520,7 @@ input[type="radio"] + label:before {
 
   .intro-header {
     text-align: center;
+    height: auto;
   }
 }
 
