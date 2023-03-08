@@ -340,6 +340,10 @@ h6 {
   h6 br {
     display: none;
   }
+  .intro-details {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 736px) {
@@ -2504,9 +2508,18 @@ input[type="radio"] + label:before {
   text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+  .intro-img {
+    margin: 100px auto;
+  }
+}
 @media screen and (max-width: 736px) {
   .image.main {
     margin: 0 0 2em 0;
+  }
+
+  .intro-header {
+    text-align: center;
   }
 }
 
